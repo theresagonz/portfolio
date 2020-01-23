@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import styled from '@emotion/styled'
-import githubIcon from '../../public/images/github-11-64.png'
-import linkedinIcon from '../../public/images/linkedin-4-64.png'
+import githubIcon from '../images/github-11-64.png'
+import linkedinIcon from '../images/linkedin-4-64.png'
 
 import Page from '../components/Page'
 import IndexLayout from '../layouts'
@@ -11,7 +11,7 @@ import IndexLayout from '../layouts'
 const FlexRow = styled.div`
   display: flex;
   justify-content: space-evenly;
-  margin-top: 50px;
+  margin-top: 100px;
 `
 
 const IndexPage = () => (

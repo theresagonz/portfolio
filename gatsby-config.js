@@ -57,9 +57,9 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "UA-157580455-1",
+        trackingId: 'UA-157580455-1',
       },
     },
   ]
